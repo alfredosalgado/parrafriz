@@ -10,7 +10,29 @@ font-style: normal;}
 .bg-jpf {background-color: #0f0d0b;}
 
 .imagen > img {
-  width: 50%;
+  width: 70%;
+  height: auto;
+}
+
+@media (min-width: 992px) {
+  .imagen > img {
+    width: 50%;
+    height: auto;
+  }
+}
+
+@media (min-width: 1200px) {
+  .imagen > img {
+    width: 45%;
+    height: auto;
+  }
+}
+
+@media (min-width: 2000px) {
+  .imagen > img {
+    width: 100%;
+    height: auto;
+  }
 }
 
 .textoheader {
