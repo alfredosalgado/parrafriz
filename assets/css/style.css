@@ -14,25 +14,9 @@ font-style: normal;}
   height: auto;
 }
 
-@media (min-width: 992px) {
-  .imagen > img {
-    width: 50%;
-    height: auto;
-  }
-}
-
-@media (min-width: 1200px) {
-  .imagen > img {
-    width: 45%;
-    height: auto;
-  }
-}
-
-@media (min-width: 2000px) {
-  .imagen > img {
-    width: 100%;
-    height: auto;
-  }
+header {
+  padding-top: 106px;
+  padding-bottom: 50px;
 }
 
 .textoheader {
@@ -52,4 +36,34 @@ h1 {
   font-family: "Calligraffitti", serif;
   font-weight: 600;
   font-style: normal;
+}
+
+a {
+  color: rgba(255, 255, 255, 0.781);
+  text-decoration: none;
+}
+
+a:hover {
+color: rgb(255, 127, 127);
+}
+
+@media (min-width: 992px) {
+  .imagen > img {
+    width: 50%;
+    height: auto;
+  }
+}
+
+@media (min-width: 1200px) {
+  .imagen > img {
+    width: 45%;
+    height: auto;
+  }
+}
+
+@media (min-width: 2000px) {
+  .imagen > img {
+    width: 100%;
+    height: auto;
+  }
 }
