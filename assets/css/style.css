@@ -87,3 +87,14 @@ color: rgb(255, 127, 127);
 color: aliceblue;
 }
 
+/* PORTAFOLIO */
+
+.bg-jpfp {
+  background-color: #c0d8b3;
+}
+
+hr {
+  height: 3px;
+  background-color: rgb(0, 0, 0);
+  border: none;
+}
