@@ -43,6 +43,9 @@ h1 {
   text-decoration: none;
 }
 
+.hp {text-decoration: none;
+color: #0f0d0b;}
+
 .icon1:hover {
 color: rgb(255, 127, 127);
 }
