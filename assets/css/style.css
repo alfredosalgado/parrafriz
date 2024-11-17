@@ -9,6 +9,27 @@ font-style: normal;}
 
 .bg-jpf {background-color: #0f0d0b;}
 
+#scrollToTop {
+  position: fixed; /* Hace que el botón permanezca en el mismo lugar al hacer scroll */
+  bottom: 20px;    /* Posición desde la parte inferior de la ventana */
+  right: 20px;     /* Posición desde la parte derecha de la ventana */
+  display: none;   /* Inicialmente oculto */
+  background-color: #007bffa1; /* Color de fondo */
+  color: white;    /* Color del texto */
+  border: none;    /* Sin bordes */
+  border-radius: 50%; /* Forma redondeada */
+  padding: 5px 10px;   /* Espaciado interno */
+  cursor: pointer; /* Cambia el cursor al pasar el mouse */
+  font-size: 18px; /* Tamaño del texto */
+  z-index: 1000;   /* Para que esté por encima de otros elementos */
+  aspect-ratio: 1/1;
+}
+
+#scrollToTop:hover {
+  background-color: #0056b3; /* Cambia el color al pasar el mouse */
+}
+
+
 .imagen > img {
   width: 70%;
   height: auto;
