@@ -33,9 +33,12 @@ font-style: normal;}
   font-style: normal;
 }
 
-.icon1 {
-  color: rgba(255, 255, 255, 0.781);
-  text-decoration: none;
+.formatotext {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.buttonvideo {
+  border: 1px solid black;
 }
 
 .hp {text-decoration: none;
@@ -79,19 +82,11 @@ color: rgb(255, 127, 127);
 
 /* Statement */
 
-.bg-jpfs {
-  background-color: #cdb982;
-}
-
 .textoheader2 {
 color: aliceblue;
 }
 
 /* PORTAFOLIO */
-
-.bg-jpfp {
-  background-color: #c0d8b3;
-}
 
 hr {
   height: 3px;
@@ -112,6 +107,16 @@ hr {
 
 .icond:hover {
   color: rgb(255, 127, 127);
+  }
+
+  .dossier {
+    text-decoration: none;
+    color:#0f0d0b;
+  }
+
+  .dossier:hover
+  {
+    color: #0d6efd;
   }
 
   /* CONTACT */
